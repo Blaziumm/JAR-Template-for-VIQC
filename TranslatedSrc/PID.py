@@ -1,4 +1,8 @@
-#include "vex.h"
+from vex import *
+from drive import *
+from odom import *
+from PID import *
+from util import *
 
 PID::PID(float error, float kp, float ki, float kd, float starti) :
   error(error),

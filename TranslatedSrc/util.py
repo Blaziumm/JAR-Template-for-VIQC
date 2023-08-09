@@ -1,4 +1,8 @@
-#include "vex.h"
+from vex import *
+from drive import *
+from odom import *
+from PID import *
+from util import *
 
 float reduce_0_to_360(float angle) {
   while(!(angle >= 0 && angle < 360)) {

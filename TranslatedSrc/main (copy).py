@@ -1,7 +1,9 @@
-#include "vex.h"
+from vex import *
+from drive import *
+from odom import *
+from PID import *
+from util import *
 
-using namespace vex;
-competition Competition;
 
 #*---------------------------------------------------------------------------*/
 #*                             VEXcode Config                                */
