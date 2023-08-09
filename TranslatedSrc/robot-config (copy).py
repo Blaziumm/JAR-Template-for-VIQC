@@ -16,4 +16,5 @@ brain=Brain()
  # This should be called at the start of your int main function.
  #
 def vexcodeInit():
-  // nothing to initialize
+  #nothing to initialize
+  pass
